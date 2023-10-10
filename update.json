@@ -1,0 +1,9 @@
+{
+    "restructure": {
+        "latest": "0.2.0",
+        "changes": [
+            "0.2.0",
+            "+ Fabric Data Pack Structure Support."
+        ]
+    }
+}
