@@ -14,3 +14,4 @@
 
 ### v0.3.3:
 - [Fix]: Salt Generating strings when first num is 0.
++ Changed update url to GitHub Update.json.
