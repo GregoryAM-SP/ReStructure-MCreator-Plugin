@@ -3,7 +3,8 @@
         "latest": "0.3.3",
         "changes": [
             "0.3.3",
-            "[Fix]: Salt Generating strings."
+            "[Fix]: Salt Generating strings.",
+            "Changed update URL to GitHub."
         ]
     }
 }
