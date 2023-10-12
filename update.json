@@ -1,6 +1,7 @@
 {
     "restructure": {
         "latest": "0.3.3",
+        "current": "0.3.3",
         "changes": [
             "0.3.3",
             "[Fix]: Salt Generating strings.",
