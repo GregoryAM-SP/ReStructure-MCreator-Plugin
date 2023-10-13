@@ -11,7 +11,3 @@
 ### v0.3.2:
 + 1.18.2 Data Pack Structure Support.
 <hr>
-
-### v0.3.3:
-- [Fix]: Salt Generating strings when first num is 0.
-+ Changed update url to GitHub Update.json.
