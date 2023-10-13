@@ -18,4 +18,4 @@
 
 ### v0.3.4:
 - [Fix]: Structure name in json files is from selected Structure.\
--- This fix is for 1.20.1, 1.18.2 and Fabric 1.20.1.
+-- This fix is for Forge 1.20.1, 1.18.2 and Fabric 1.20.1.
