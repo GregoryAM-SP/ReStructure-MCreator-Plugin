@@ -1,5 +1,5 @@
 name: Bug report
-description: Create a report to help me improve [Re]Structure
+description: Create a report to help me improve the [Re]Structure plugin
 labels: bug
 body:
  - type: textarea
