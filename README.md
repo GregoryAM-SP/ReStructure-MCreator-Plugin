@@ -1,1 +1,1 @@
-# MCreator [Re]Structure Plugin
+# [Re]Structure Plugin for MCreator
