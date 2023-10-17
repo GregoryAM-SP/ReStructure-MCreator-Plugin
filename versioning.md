@@ -11,3 +11,7 @@
 ### v0.3.2:
 + 1.18.2 Data Pack Structure Support.
 <hr>
+
+### v1.0.0:
++ Added a GUI & Menu bar option.
++ Added many new options to creating structures.
