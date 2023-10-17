@@ -20,4 +20,5 @@
 Added Generator Support:
 + Fabric 1.20.1
 + Forge 1.18.2
+  
 [Fix]: Updated help documentation
