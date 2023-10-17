@@ -15,3 +15,9 @@
 ### v1.0.0:
 + Added a GUI & Menu bar option.
 + Added many new options to creating structures.
+
+### v1.1.0:
+Added Generator Support:
++ Fabric 1.20.1
++ Forge 1.18.2
+[Fix]: Updated help documentation
