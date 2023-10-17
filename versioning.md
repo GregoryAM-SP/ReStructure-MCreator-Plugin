@@ -15,6 +15,7 @@
 ### v1.0.0:
 + Added a GUI & Menu bar option.
 + Added many new options to creating structures.
+<hr>
 
 ### v1.1.0:
 Added Generator Support:
