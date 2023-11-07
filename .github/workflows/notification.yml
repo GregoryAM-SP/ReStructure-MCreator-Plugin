@@ -1,0 +1,42 @@
+name: Discord Release Notification
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  send_discord_notification:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Send Discord Message
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          RELEASE_NAME: ${{ github.event.release.name }}
+          RELEASE_URL: ${{ github.event.release.html_url }}
+          RELEASE_CREATED_AT: ${{ github.event.release.created_at }}
+        run: |
+          PAYLOAD=$(cat <<-EOF
+          {
+            "content": null,
+            "embeds": [
+              {
+                "title": "${RELEASE_NAME}",
+                "url": "${RELEASE_URL}",
+                "color": 8435015,
+                "footer": {
+                  "text": "Released"
+                },
+                "timestamp": "${RELEASE_CREATED_AT}"
+              }
+            ],
+            "attachments": []
+          }
+          EOF
+          )
+          
+          curl -X POST -H "Content-Type: application/json" -d "$PAYLOAD" $DISCORD_WEBHOOK_URL
