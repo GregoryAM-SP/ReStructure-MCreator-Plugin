@@ -23,3 +23,28 @@ Added Generator Support:
 + Forge 1.18.2
   
 [Fix]: Updated help documentation
+<hr>
+
+### v1.2.0:
+[FIXED]:
+ - [✔️] Icon Sizing
+ - [✔️] Help Documentation
+
+[ADDED]:
++ Forge 1.19.4 Support
++ Forge 1.19.2 Support
++ MCreator Version Checker
++ Matrix (Theme) Icons & Element Icon
+
+[REMOVED]:
+- All Data Pack Generators.
+- - Issues occured with Data Pack 1.20.1 Generation.
+- - When fixed, Data Pack support will be added back.
+
+NOTES:
+- Support for 2023.2 & 2023.1 in development.
+ 
+- MCreator Version Checker:
+- - Stops the Element from showing in the Workspace.
+- - [ Only on unsupported MCreator Versions ]
+  
