@@ -31,8 +31,8 @@ Added Generator Support:
  - [✔️] Help Documentation
 
 [ADDED]:
-+ Forge 1.19.4 Support
-+ Forge 1.19.2 Support
++ Forge 1.19.4 Structure Support
++ Forge 1.19.2 Structure Support
 + MCreator Version Checker
 + Matrix (Theme) Icons & Element Icon
 
