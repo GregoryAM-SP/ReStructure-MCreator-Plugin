@@ -2,6 +2,14 @@ name: Bug report
 description: Create a report to help me improve the [Re]Structure plugin
 labels: bug
 body:
+ - type: checkboxes
+   attributes:
+    label: Issue tracker rule checks (please read carefully)
+    options:
+     - label: "I have checked that my problem <a href='https://github.com/Gregory-AM/ReStructure-Plugin/issues' target='_blank'>is not already reported</a>"
+       required: true
+     - label: "I have checked that my problem is not already fixed"
+       required: true
  - type: textarea
    attributes:
     label: Issue description
@@ -46,11 +54,3 @@ body:
       [example_log.txt / example_log.md ...]
    validations:
     required: false
- - type: checkboxes
-   attributes:
-    label: Issue tracker rule checks (please read carefully)
-    options:
-     - label: "I have checked that my problem <a href='https://github.com/Gregory-AM/ReStructure-Plugin/issues' target='_blank'>is not already reported</a>"
-       required: true
-     - label: "I have checked that my problem is not already fixed"
-       required: true
