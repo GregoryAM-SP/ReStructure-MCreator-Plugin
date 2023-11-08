@@ -2,14 +2,6 @@ name: Feature Request
 description: Create a report to help us improve (search for duplicates first)
 labels: feature request
 body:
- - type: textarea
-   attributes:
-    label: Feature description
-    description: Explain clearly
-    placeholder: |
-     Tell us here about the feature
-   validations:
-    required: true
  - type: checkboxes
    attributes:
     label: Issue tracker rule checks (please read carefully)
@@ -18,3 +10,12 @@ body:
        required: true
      - label: "I have checked that this feature is not already implemented"
        required: true
+ - type: textarea
+   attributes:
+    label: Feature description
+    description: Explain clearly
+    placeholder: |
+     Tell us here about the feature
+   validations:
+    required: true
+ 
