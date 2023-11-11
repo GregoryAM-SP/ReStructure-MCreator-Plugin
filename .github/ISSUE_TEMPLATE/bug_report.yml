@@ -23,9 +23,9 @@ body:
     label: [Re]Structure Version
     description: Which Plugin Version were you using?
     options:
-    - v1.0.0
-    - v1.1.0
-    - v1.2.0
+     - v1.0.0
+     - v1.1.0
+     - v1.2.0
    validations:
     required: true
  - type: textarea
