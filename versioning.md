@@ -47,4 +47,11 @@ NOTES:
 - MCreator Version Checker:
 - - Stops the Element from showing in the Workspace.
 - - [ Only on unsupported MCreator Versions ]
-  
+<hr>
+### v2.0.0
+[ADDED]:
++ MCreator v2023.2 Support
++ MCreator v2023.1 Support
+
+NOTES:
++ Data Pack Generation is still disabled.
