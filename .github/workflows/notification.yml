@@ -7,8 +7,6 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: 'Specify the tag for manual trigger'
-        required: true
 
 jobs:
   send_discord_notification:
