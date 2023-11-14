@@ -3,7 +3,7 @@ name: Discord Release Notification
 on:
   release:
     types:
-      - release
+      - released
   workflow_dispatch:
     inputs:
       tag:
@@ -27,7 +27,7 @@ jobs:
         run: |
           PAYLOAD=$(cat <<-EOF
           {
-            "content": null,
+            "content": "New release!",
             "embeds": [
               {
                 "title": "${RELEASE_NAME}",
@@ -44,4 +44,4 @@ jobs:
           EOF
           )
           
-          curl -X POST -H "Content-Type: application/json" -d "$PAYLOAD" $DISCORD_WEBHOOK_URL
+          curl -X POST -H "Content-Type: application/json" -d "$PAYLOAD" "$DISCORD_WEBHOOK_URL"
