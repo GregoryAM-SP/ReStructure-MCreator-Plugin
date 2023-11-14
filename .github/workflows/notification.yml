@@ -2,11 +2,7 @@ name: Discord Release Notification
 
 on:
   release:
-    types:
-      - release
-  workflow_dispatch:
-    inputs:
-      tag:
+    types: [published]
 
 jobs:
   send_discord_notification:
