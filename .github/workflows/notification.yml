@@ -30,7 +30,10 @@ jobs:
                 "footer": {
                   "text": "Released"
                 },
-                "timestamp": "${RELEASE_CREATED_AT}"
+                "timestamp": "${RELEASE_CREATED_AT}",
+                "image": {
+                  "url" : "https://camo.githubusercontent.com/57f538cdf7ad2c4cc2bd44e42a95b34270fb1c3c8df0382e7920fd4449c099bb/68747470733a2f2f677265676f7279616d2e636f6d2f6173736574732f696d672f72657374727563747572652d696d6167652e77656270"
+                }
               }
             ],
             "attachments": []
