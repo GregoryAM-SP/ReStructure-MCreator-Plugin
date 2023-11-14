@@ -19,11 +19,12 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Send Discord Message
+        if: github.event_name == 'workflow_dispatch'
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          RELEASE_NAME: ${{ github.event.release.name }}
-          RELEASE_URL: ${{ github.event.release.html_url }}
-          RELEASE_CREATED_AT: ${{ github.event.release.created_at }}
+          RELEASE_NAME: ${{ github.event.inputs.tag }}
+          RELEASE_URL: 'manual trigger'
+          RELEASE_CREATED_AT: 'manual trigger'
         run: |
           PAYLOAD=$(cat <<-EOF
           {
