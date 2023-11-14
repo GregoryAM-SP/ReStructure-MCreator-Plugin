@@ -5,6 +5,10 @@ on:
     types:
       - release
   workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Specify the tag for manual trigger'
+        required: true
 
 jobs:
   send_discord_notification:
@@ -17,9 +21,9 @@ jobs:
       - name: Send Discord Message
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          RELEASE_NAME: ${{ github.event.inputs.tag }}
-          RELEASE_URL: 'manual trigger'
-          RELEASE_CREATED_AT: 'manual trigger'
+          RELEASE_NAME: ${{ github.event.release.name }}
+          RELEASE_URL: ${{ github.event.release.html_url }}
+          RELEASE_CREATED_AT: ${{ github.event.release.created_at }}
         run: |
           PAYLOAD=$(cat <<-EOF
           {
