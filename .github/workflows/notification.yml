@@ -15,7 +15,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Send Discord Message
-        if: github.event_name == 'workflow_dispatch'
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           RELEASE_NAME: ${{ github.event.inputs.tag }}
