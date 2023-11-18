@@ -49,7 +49,7 @@ NOTES:
 - - [ Only on unsupported MCreator Versions ]
 <hr>
 
-### v2.0.0
+### v2.0.0:
 [ADDED]:
 + MCreator v2023.2 Support.
 + MCreator v2023.1 Support.
