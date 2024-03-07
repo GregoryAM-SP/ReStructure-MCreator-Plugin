@@ -1,6 +1,5 @@
-# The MCreator [Re]Structure Plugin
-
-
+# The [MCreator](https://mcreator.net/) [Re]Structure Plugin
+### 🔗 [[Re]Structure Plugin Page](https://mcreator.net/plugin/100952/restructure)
 ### 💻 MCreator Versions:
 - **2023.1 - "2023.1.10610 - 202300110610"**
 - **2023.2 - "2023.2.24119 - 202300224119"**
