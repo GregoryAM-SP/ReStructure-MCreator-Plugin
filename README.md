@@ -1,1 +1,1 @@
-![ReStructure](https://gregoryam.com/assets/img/restructure-image.webp)
+# The MCreator [Re]Structure Plugin
