@@ -56,3 +56,14 @@ NOTES:
 
 NOTES:
 + Data Pack Generation is still disabled.
+<hr>
+
+### Changelog v2.1.0:
+[+] MCreator v2023.4 Support\
+[+] Dynamically Updating Menu\
+[+] 'GitHub' Button Added to Update Dialog\
+[+] 'Project Board' Menu Item added\
+[+] Updated 'Report an Issue' Link
+### Notes:
+- Menu will now update if a new release is available.
+- Data Pack Generation is not Available
