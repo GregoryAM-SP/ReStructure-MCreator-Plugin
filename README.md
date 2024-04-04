@@ -1,4 +1,12 @@
 # The [MCreator](https://mcreator.net/) [Re]Structure Plugin
+
+<hr>
+
+### [Re]Structure v3.0.0 is a complete rewrite of the plugin.
+Release date is TBD
+
+<hr>
+
 ### 🔗 [[Re]Structure Plugin Page](https://mcreator.net/plugin/100952/restructure)
 ### ✅ [Changelog](versioning.md)
 ### 💻 MCreator Versions:
