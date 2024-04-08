@@ -1,0 +1,21 @@
+{
+  "restructure":{
+    "latest": "3.0.0",
+    "changes": [
+      "DEV NOTES:",
+      "[*] Complete rewrite of the entire plugin.",
+      "[*] Enhanced UI & UX.",
+      "",
+      "[Re]Structure Versions:",
+      "[0.1.0]: Forge Data Pack Support",
+      "[0.2.1]: Fabric Data Pack Support",
+      "[0.3.2]: 1.18.2 Data Pack Support",
+      "[1.0.0]: Added GUI & Menu Bar",
+      "[1.1.0]: Supports Forge 1.18.2 & Fabric 1.20.1",
+      "[1.2.0]: Supports Forge 1.19.4 & Forge 1.19.2",
+      "[2.0.0]: Supports MCreator 2023.2 & 2023.1",
+      "[2.1.0]: Supports MCreator 2023.4",
+      "[3.0.0]: Supports MCreator 2024.1"
+    ]
+  }
+}
